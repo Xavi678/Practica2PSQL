@@ -1,0 +1,98 @@
+ ?column? 
+----------
+        8
+(1 fila)
+
+ ?column? 
+----------
+       10
+(1 fila)
+
+ ?column? 
+----------
+      168
+(1 fila)
+
+<table border="1">
+  <tr>
+    <th align="center">?column?</th>
+  </tr>
+  <tr valign="top">
+    <td align="right">10</td>
+  </tr>
+</table>
+<p>(1 fila)<br />
+</p>
+?column?
+10
+(1 fila)
+\begin{tabular}{r}
+\textit{?column?} \\
+\hline
+10 \\
+\end{tabular}
+
+\noindent (1 fila) \\
+
+.LP
+.TS
+center;
+r.
+\fI?column?\fP
+_
+10
+.TE
+.DS L
+(1 fila)
+.DE
+ ?column? 
+----------
+       10
+(1 fila)
+
+ ?column? 
+----------
+       10
+(1 fila)
+
+ ?column? | ?column? 
+----------+----------
+       10 |       10
+(1 fila)
+
+ ?column? | ?column? 
+----------+----------
+       10 |        8
+(1 fila)
+
+                                       Listado de base de datos
+  Nombre   |  Dueño   | Codificación |      Collate       |       Ctype        |      Privilegios      
+-----------+----------+--------------+--------------------+--------------------+-----------------------
+ postgres  | postgres | UTF8         | Catalan_Spain.1252 | Catalan_Spain.1252 | 
+ template0 | postgres | UTF8         | Catalan_Spain.1252 | Catalan_Spain.1252 | =c/postgres          +
+           |          |              |                    |                    | postgres=CTc/postgres
+ template1 | postgres | UTF8         | Catalan_Spain.1252 | Catalan_Spain.1252 | =c/postgres          +
+           |          |              |                    |                    | postgres=CTc/postgres
+(3 filas)
+
+        Listado de relaciones
+ Esquema | Nombre  | Tipo  |  Dueño   
+---------+---------+-------+----------
+ public  | HOLA    | tabla | postgres
+ public  | recipes | tabla | postgres
+(2 filas)
+
+        Listado de relaciones
+ Esquema | Nombre  | Tipo  |  Dueño   
+---------+---------+-------+----------
+ public  | HOLA    | tabla | postgres
+ public  | recipes | tabla | postgres
+(2 filas)
+
+        Listado de relaciones
+ Esquema | Nombre  | Tipo  |  Dueño   
+---------+---------+-------+----------
+ public  | HOLA    | tabla | postgres
+ public  | recipes | tabla | postgres
+(2 filas)
+
